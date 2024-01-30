@@ -1,0 +1,4 @@
+{
+  "build:solution": "dotnet build",
+  "run:tests": "donet test"
+}
