@@ -23,7 +23,6 @@ namespace SpecFlowCrashCourse.StepDefinitions
             homeActions.DemoblazeTitleIsCorrect();
          }
 
-
         [When(@"selects (.*) category")]
         public void WhenSelectsPhoneCategory(string category)
         {

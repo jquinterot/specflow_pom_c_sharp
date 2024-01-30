@@ -13,7 +13,6 @@ namespace SpecFlowCrashCourse.Pages
             this.wait = new WebDriverWait(driver, new TimeSpan(0, 0, 30));
         }
 
-
         public IWebElement getProductByName(string product)
         {
             string productLink = $"//*[@class='card-title'][contains(.,'{product}')]";
@@ -26,6 +25,11 @@ namespace SpecFlowCrashCourse.Pages
             string categoryLink = $"//*[@id='itemc'][contains(.,'{category}')]";
             IWebElement categoryLinkElement = wait.Until(driver => driver.FindElement(By.XPath(categoryLink)));
             return categoryLinkElement;
+        }
+
+        public string getTitle()
+        {
+            return driver.Title;
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpecFlowCrashCourse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00b83846c19cffb2f74054857cd043fdf879e3ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpecFlowCrashCourse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpecFlowCrashCourse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
