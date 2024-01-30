@@ -1,6 +1,6 @@
 ﻿Feature: Order Management
 
-Scenario: Check that a samsung cellphone can be added
+Scenario: Check that a Nexus 6 cellphone can be added
 	Given the user visits Demoblaze page
 	When selects 'Phone' category
 	And selects 'Nexus 6' product
